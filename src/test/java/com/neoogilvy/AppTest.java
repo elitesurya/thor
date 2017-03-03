@@ -1,5 +1,6 @@
 package com.neoogilvy;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -22,7 +23,7 @@ public class AppTest {
     @BeforeTest
     public void beforeTest()
     {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
     }
 
     @AfterTest
