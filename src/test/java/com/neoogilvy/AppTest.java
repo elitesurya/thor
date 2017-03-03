@@ -23,6 +23,7 @@ public class AppTest {
     @BeforeTest
     public void beforeTest()
     {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
     }
 
